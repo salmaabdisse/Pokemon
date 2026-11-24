@@ -1,0 +1,25 @@
+.pokemonApplication{
+    text-align: center;
+}
+
+.selectPokemon{
+background-color: orange;
+  color: black;
+  font-size: 1rem;
+    padding: 10px 20px;
+    border: 2px solid darkorange;
+    border-radius: 1rem;
+    margin-right: 10px;
+}
+.getPokemonButton{
+  background-color: orange;
+  color: black;
+  font-size: 1rem;
+    padding: 5px 10px;
+    border: 2px solid darkorange;
+    border-radius: 1rem;
+}
+
+.getPokemonButton:hover{
+ background-color: darkorange;
+}

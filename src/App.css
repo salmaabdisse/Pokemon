@@ -1,0 +1,31 @@
+body{
+  min-height: 100vh;
+  margin: 0;
+  background-color: beige;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+h1{
+  font-size: 2.5rem;
+  color: #2e1f12b2;
+}
+
+.startButton{
+  background-color:orange;
+  color: #2e1f12ef;
+  font-size:1.25rem;
+  padding: 35px 55px;
+  border: 5px solid darkorange;
+  border-radius:2rem;
+
+}
+
+.startButton:hover{
+ background-color: darkorange;
+  border: 5px solid darkorange;
+}
+
