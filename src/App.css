@@ -1,7 +1,7 @@
 body{
   min-height: 100vh;
   margin: 0;
-  background-color: beige;
+  background-color: #23466B;
    display: flex;
   justify-content: center;
   align-items: center;
@@ -11,21 +11,21 @@ body{
 
 h1{
   font-size: 2.5rem;
-  color: #2e1f12b2;
+  color: #F2A052;
 }
 
 .startButton{
-  background-color:orange;
-  color: #2e1f12ef;
+  background-color:#F2A052;
+  color: #315B83;
   font-size:1.25rem;
   padding: 35px 55px;
-  border: 5px solid darkorange;
+  border: 5px solid #F2A052;
   border-radius:2rem;
 
 }
 
 .startButton:hover{
- background-color: darkorange;
-  border: 5px solid darkorange;
+ background-color: #f4963d;
+  border: 5px solid #f4963d;
 }
 
