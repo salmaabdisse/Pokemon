@@ -9,7 +9,7 @@ function Pokemon ({pokemon}) {
         <p><strong>Name: </strong> {pokemon.name}</p>
         <p><strong>Weight: </strong> {pokemon.weight}</p>
         <p><strong>Height: </strong> {pokemon.height}</p>
-     <p><strong>Type/Types: </strong> {pokemon.types?.map((type)=> type.type.name)}</p>
+     <p><strong>Type/Types: </strong> {pokemon.types?.map((type)=> type.type.name + " " )}</p>
      
      </div>
 )
