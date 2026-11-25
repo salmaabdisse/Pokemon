@@ -12,7 +12,7 @@ function App() {
     <>
     <h1>Pokemon Application</h1>
     {!start && 
-    <button className ="startButton" onClick = {() => setStart(true)}> Starta Pokémon Applikation </button>
+    <button className ="startButton" onClick = {() => setStart(true)}> Start Pokémon Application </button>
     }
     {start && <PokemonApplication />}
 

@@ -3,6 +3,7 @@ body{
   margin: 0;
   background-color: #23466B;
    display: flex;
+   flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -12,13 +13,15 @@ body{
 h1{
   font-size: 2.5rem;
   color: #F2A052;
+  
 }
 
 .startButton{
+
   background-color:#F2A052;
   color: #315B83;
   font-size:1.25rem;
-  padding: 35px 55px;
+  padding: 35px 65px;
   border: 5px solid #F2A052;
   border-radius:2rem;
 
